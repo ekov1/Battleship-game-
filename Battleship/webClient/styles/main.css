@@ -1,0 +1,14 @@
+#msgBox{
+    height: 20px;
+}
+
+#board {
+   
+}
+
+td {
+    /* background-color: royalblue; */
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}

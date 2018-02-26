@@ -1,0 +1,17 @@
+{
+  "name": "webclient",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify scripts/main.js -o battleships.js",
+    "watch" :"watchify scripts/main.js -o battleships.js"
+  },
+  "author": "Kristian Ekov",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "browserify": "^16.1.0",
+    "jquery": "^3.3.1",
+    "watchify": "^3.10.0"
+  }
+}
